@@ -1,25 +1,8 @@
-import { autoConnect } from "@unicitylabs/sphere-sdk/connect/browser";
-
-let session: any = null;
-
 export async function connectWallet() {
-  if (session) return session;
+  console.log("Mock wallet connection");
 
-  session = await autoConnect({
-    dapp: {
-      name: "Decode The Signal",
-      url: window.location.origin,
-      iconUrl: window.location.origin + "/vite.svg",
-    },
-
-    permissions: [
-      "identity",
-      "payments",
-      "communications",
-    ],
-
-    silent: false,
-  });
-
-  return session;
+  return {
+    connected: true,
+    address: "0x9d5878ce6176...e604",
+  };
 }
