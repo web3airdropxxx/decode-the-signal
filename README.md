@@ -1,75 +1,73 @@
-# React + TypeScript + Vite
+# 👽 Decode The Signal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sci-fi puzzle game built for the **Unicity Builders Program**.
 
-Currently, two official plugins are available:
+Players receive encrypted alien transmissions, spend UTC to unlock signals, decode hidden messages, and earn experience while progressing through their mission.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+https://YOUR-VERCEL-URL.vercel.app
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## ✨ Features
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- 👾 Sci-fi themed decoding game
+- 🛰 Random alien transmissions
+- 💰 Spend UTC to receive a signal
+- 🎯 Multiple-choice decoding
+- ⭐ XP & Rank system
+- 📊 Accuracy tracking
+- 📜 Mission Log
+- 📱 Responsive interface
+- 🔗 Ready for Sphere Wallet integration
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 🛠 Tech Stack
 
-```
+- React
+- TypeScript
+- Vite
+- CSS
+- GitHub
+- Vercel
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🎮 Gameplay
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+1. Connect Wallet
+2. Spend 1 UTC
+3. Receive encrypted signal
+4. Decode correctly
+5. Earn XP
+6. Increase your rank
 
-```
+---
+
+## 🗺 Roadmap
+
+- [x] Game Prototype
+- [x] Responsive UI
+- [x] GitHub Deployment
+- [x] Vercel Deployment
+- [ ] Sphere Wallet Integration
+- [ ] UTC Testnet Transactions
+- [ ] On-chain Mission Records
+
+---
+
+## 📸 Screenshot
+
+_Add a screenshot after deployment._
+
+---
+
+## 📄 License
+
+MIT
+
+Built for the **Unicity Builders Program**.
